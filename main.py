@@ -18,7 +18,7 @@ def main():
         state_percentage,
         general_info,
         filtering_by_region,
-        filtering_by_type
+        filtering_by_type,
     )
     from src.write_operations import insert_port, update_port, delete_port
     from src.helpers.manage_csv import readcsv
